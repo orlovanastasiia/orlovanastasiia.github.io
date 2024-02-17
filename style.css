@@ -19,7 +19,7 @@
     opacity: 0.5;
 }
 .central_bl{
-	//position: fixed;
+	position: absolute;
     top: 40%;
     left: 0;
     right: 0;
@@ -71,7 +71,7 @@ font-weight: 500;
 line-height: 12px;
 letter-spacing: -5%;
 text-align: center;
-    //position: fixed;
+   position: absolute;
     bottom: 50px;
     left: 0;
     right: 0;
