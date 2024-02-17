@@ -19,20 +19,21 @@
     opacity: 0.5;
 }
 .central_bl{
-	position: fixed;
+	//position: fixed;
     top: 40%;
     left: 0;
     right: 0;
     margin: auto;
 }
 .central_bl p{
-	font-family: Inter;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
 letter-spacing: -0.05em;
 text-align: center;
-margin-bottom: 27px;
+
+margin-bottom: 40px;
 }
 .button_bl{
 	    display: flex;
@@ -40,29 +41,37 @@ margin-bottom: 27px;
 }
 .button_bl a{
     font-family: Inter;
-
-
+width: 46px;
+height: 19px;
+padding: 2px;
+border: 1px solid white;
     display: block;
     text-align: center;
-    line-height: 33px;
+    line-height: 20px;
     font-size: 16px;
     color: rgb(26, 32, 36);
     text-decoration: none;
 }
 .button_bl a:hover{
- text-decoration: underline;
+ border: 1px solid #000000;
+ padding: 2px;
 
 }
-
+.button_bl a:active{
+ border: 1px solid #000000;
+ padding: 2px;
+color: #FFF;
+background: rgb(0, 0, 0);
+}
 .footer_bl p{
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #B0BABF;
-    position: absolute;
+color: rgb(176, 186, 191);
+font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: -5%;
+text-align: center;
+    //position: fixed;
     bottom: 50px;
     left: 0;
     right: 0;
